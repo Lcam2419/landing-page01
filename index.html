@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="scr/styles/styles.css">
+
+        
+    
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+   <header>
+       <nav id="navbar">
+          <i class="fa-solid fa-burger" id="nav_logo">food</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">cardapio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>                
+            </ul>
+            
+           <button class="btn-default">
+            faça seu pedido
+           </button>
+           <button id="mobile_btn">
+             <i class="fa-solid fa-bars"></i>
+           </button>    
+
+       </nav>
+
+       <div id="mobile-menu">
+          <ul id="mobile_nav-list">
+                <li class="nav-item">
+                    <a href="#home">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">cardapio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>                
+            </ul>
+            <button class="btn-default">
+              faça seu pedido
+           </button>
+       </div>     
+    
+    </header>
+    <main id="content">
+          <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                     o sabor te
+                    <spam>porocura!</spam> 
+                </h1>
+                
+                <p class="description">
+                    venha experimentar o melhor
+                </p>
+
+                <button class="cta_buttons">
+                    <a href="#" class="btn-default">
+                         ver cardapio
+                     </a>
+                    <a href="tel:+5511999999999"id="phone_button">Ligar
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 99999-9999
+                    </a>
+                </button>
+            </div>
+          <div class="social-media-buttons">
+                  <a href="">
+                     <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="">
+                       <i class="fa-brands fa-facebook"></i>
+                  </a>
+          </div>   
+         <div id="banner">
+            <img src="scr/imagens/3931c4ae-01ab-4c6f-b6cf-687f90af1660.png" alt="">
+
+         </div> 
+         
+        </section>  
+       <section id="menu">
+         <h2 class="section-title">cardapio</h2>
+         <h3 class="section-subtitle">nosso pratos principais</h3>
+          
+        <div id="dishes">
+           <div class="dish">
+               <div class="dish-heart">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="/scr/imagens/feijoada.jnp.jpg" alt="">
+                <h3 class="dish-name">Prato 1</h3>
+
+                <p class="dish-description">Descrição do prato 1</p>
+                <span class="dish-price">R$ 25,00</span>
+                
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>(500)</span>
+                </div>
+                
+
+            </div>
+        </div>
+         
+        </section>
+
+        <section id="testimonials">
+            <img src="scr/imagens/cozinheiro2.png" alt="">
+            
+            <div id="testimonials_content" >
+                <h2 class="section-tittle"></h2>
+                <h3 class="section-subtittle">
+                    oq os clientes falam sobre nos 
+                </h3>
+
+                <div id="feeedbacks">
+                    
+                    <div class="feedbacks"></div>
+                    <img src="scr/imagens/avaliador_redondo.png" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p>
+                            mariana
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>    
+                        </p>
+                        <p> 
+                            a comida esta maravilhosa
+                        </p>
+                        
+
+                    </div>
+                </div>
+              <button class="btn-default">
+                ver mais Avaliações
+              </button>  
+                
+
+
+            </div> 
+        </section>
+    </main>
+
+    <footer>
+      <span id="copyrith">
+        &copy 2026 lucas alexandre
+      </span>
+
+
+    </footer>
+
+    <script src="scr/styles/javascript/script.js"></script>
+</body>
+</html>
